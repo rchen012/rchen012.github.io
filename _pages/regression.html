@@ -1,3 +1,9 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
@@ -14573,6 +14579,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+
+
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -17264,6 +17277,12 @@ The code below will store the predicted values for each of the models above.</p>
 </div>
 
 </div>
+	    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 </body>
 
 
