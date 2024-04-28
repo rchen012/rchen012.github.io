@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "classification"
-    url: /classification.html/
+    url: https://rchen012.github.io/classification.html
     
   - title: "GuesingGame"
-    url: /GuesingGame.html/
+    url: https://rchen012.github.io/GuesingGame.html/
     
   - title: "regression"
-    url: /regression.html/
+    url: https://rchen012.github.io/regression.html/
 
 #  - title: "Publications"
 #    url: /publications/
